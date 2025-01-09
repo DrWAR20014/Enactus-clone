@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enactus ADGIPS</title>
+    <link rel="icon" href="images/enactus.png" type="image/png">
+    <link rel="stylesheet" href="enac.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="menu">
+            <a href="http://127.0.0.1:5500/enac.html">Home</a>
+            <a href="#About Us" id="about-us-link">About Us</a>
+            <a href="https://enactus-darpan2.vercel.app/">Store</a>
+            <a href="https://www.enactusadgips.in/ProjectPage">Projects</a>
+            <a href="https://www.enactusadgips.in/TeamPage">Team</a>
+            <a href="https://www.enactusadgips.in/EventPage">Event</a>
+        </div>
+    </div>
+    <div class="container_1">
+        <div id="slideshow">
+            <img src="images/group.jpg" alt="Slide 1">
+        </div>
+        <div id="About_box">
+            <h1>About Us</h1>
+            <p>Enactus ADGIPS is a non-profit organization that works on various projects to help the society. We are a team of young and enthusiastic students who are working towards a better future.
+            Transform the lives of people, empowering the communities and make a difference in the society.
+            </p>
+        </div>      
+    </div>
+
+    <div class="Project_container">
+        <div class="background-slideshow">
+            <div class="mySlides ongoing fade">
+                <img src="images/ongoing1.03f3e93a2dc7d5935caf.png" alt="Project 1">
+            </div>
+            <div class="mySlides ongoing fade">
+                <img src="images/ongoing2.e37a71d641c55a4ab2de.png" alt="Project 2">
+            </div>
+            <div class="mySlides ongoing fade">
+                <img src="images/ongoing3.73bcc6ac9dfb380f056a.jpg" alt="Project 3">
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <h1>Our ongoing projects</h1>
+        <div id="project_photos" class="slideshow-container">
+            <div class="mySlides ongoing fade">
+                <img src="images/ongoing1.03f3e93a2dc7d5935caf.png" alt="Project 1">
+            </div>
+            <div class="mySlides ongoing fade">
+                <img src="images/ongoing2.e37a71d641c55a4ab2de.png" alt="Project 2">
+            </div>
+            <div class="mySlides ongoing fade">
+                <img src="images/ongoing3.73bcc6ac9dfb380f056a.jpg" alt="Project 3">
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 'ongoing')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 'ongoing')">&#10095;</a>
+        </div>
+    </div>
+    <div class="divider"></div> <!-- Subtle boundary -->
+    <div class="Previous_Project_container">
+        <div class="background-slideshow">
+            <div class="mySlides previous fade">
+                <img src="images/abeer.png" alt="Previous Project 1">
+            </div>
+            <div class="mySlides previous fade">
+                <img src="images/sankalp.jpg" alt="Previous Project 2">
+            </div>
+            <div class="mySlides previous fade">
+                <img src="images/diya.jpg" alt="Previous Project 3">
+            </div>
+            <div class="mySlides previous fade">
+                <img src="images/rangmanch.jpg" alt="Previous Project 4">
+            </div>
+            <div class="mySlides previous fade">
+                <img src="images/project phoenix.jpg" alt="Previous Project 5">
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <h1>Our previous projects</h1>
+        <div id="previous_project_photos" class="slideshow-container">
+            <div class="mySlides previous fade">
+                <img src="images/abeer.png" alt="Previous Project 1">
+            </div>
+            <div class="mySlides previous fade">
+                <img src="images/sankalp.jpg" alt="Previous Project 2">
+            </div>
+            <div class="mySlides previous fade">
+                <img src="images/diya.jpg" alt="Previous Project 3">
+            </div>
+            <div class="mySlides previous fade">
+                <img src="images/rangmanch.jpg" alt="Previous Project 4">
+            </div>
+            <div class="mySlides previous fade">
+                <img src="images/project phoenix.jpg" alt="Previous Project 5">
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 'previous')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 'previous')">&#10095;</a>
+        </div>
+    </div>
+    <div class="divider"></div> <!-- Subtle boundary -->
+    <button id="backToTop" title="Go to Top">&#8679;</button>
+    <div class="Ending_images">
+        <img src="images/sample.png" alt="Ending Image 1">
+    </div>
+    <div class="divider"></div> <!-- Subtle boundary -->
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear your thoughts. Please fill out the form below.</p>
+        <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+                <div class="input-field">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="input-field">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-field">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                </div>
+                <div class="input-field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                </div>
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Enactus ADGIPS is a non-profit organization dedicated to empowering communities and making a difference in society.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#store">Store</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#event">Event</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: enactusadgitm@gmail.com</p>
+                <p>Address: FC-26, Panduk Shila Marg, Zero Pusta Rd, Shastri Park, Shahdara, New Delhi, Delhi-110053</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://x.com/adgitmenactus"><img src="images/11244080_x_twitter_elon musk_twitter new logo_icon.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/enac.adgips/"><img src="images/1298747_instagram_brand_logo_social media_icon.png" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/company/enactus-adgitm/"><img src="images/5296501_linkedin_network_linkedin logo_icon.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Enactus ADGIPS. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="enac.js"></script>
+</body>
+</html>
